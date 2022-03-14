@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "moviesdatafactorymaintef"
 		},
+		"AzureSqlDatabase_Service_connectionString": {
+			"value": ""
+		},
 		"BG_Cosmos_connectionString": {
 			"value": ""
 		},

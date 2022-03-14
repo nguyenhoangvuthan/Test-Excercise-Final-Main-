@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "moviesdatafactorymaintef"
 		},
+		"AzureSqlDatabase_Service_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase_Service'"
+		},
 		"BG_Cosmos_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BG_Cosmos'"
@@ -41,6 +45,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureSqlDatabase_Service_connectionString": {
+						"value": "[parameters('AzureSqlDatabase_Service_connectionString')]"
 					},
 					"BG_Cosmos_connectionString": {
 						"value": "[parameters('BG_Cosmos_connectionString')]"
