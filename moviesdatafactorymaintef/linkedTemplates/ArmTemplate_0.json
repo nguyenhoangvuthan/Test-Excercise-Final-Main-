@@ -170,7 +170,7 @@
 								"mappings": [
 									{
 										"source": {
-											"path": "$['actors']['name']"
+											"path": "$['actors'][0]['name']"
 										},
 										"sink": {
 											"path": "$['actors']['name']"
@@ -246,46 +246,6 @@
 										},
 										"sink": {
 											"path": "$['id']"
-										}
-									},
-									{
-										"source": {
-											"path": "$['_rid']"
-										},
-										"sink": {
-											"path": "$['_rid']"
-										}
-									},
-									{
-										"source": {
-											"path": "$['_self']"
-										},
-										"sink": {
-											"path": "$['_self']"
-										}
-									},
-									{
-										"source": {
-											"path": "$['_etag']"
-										},
-										"sink": {
-											"path": "$['_etag']"
-										}
-									},
-									{
-										"source": {
-											"path": "$['_attachments']"
-										},
-										"sink": {
-											"path": "$['_attachments']"
-										}
-									},
-									{
-										"source": {
-											"path": "$['_ts']"
-										},
-										"sink": {
-											"path": "$['_ts']"
 										}
 									}
 								]
