@@ -34,10 +34,10 @@
 						"mappings": [
 							{
 								"source": {
-									"path": "$['actors'][0]['name']"
+									"path": "$['actors']['name']"
 								},
 								"sink": {
-									"path": "$['actors'][0]['name']"
+									"path": "$['actors']['name']"
 								}
 							},
 							{
